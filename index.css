@@ -112,7 +112,15 @@ h2 {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    text-align: center;
     padding: 10px;
+}
+
+@media(max-width: 500px){
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .simplicity {
@@ -163,7 +171,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 30px;
+    margin: 10px;
 }
 
 p {
@@ -227,6 +235,7 @@ p {
     background-color: #afafaf;
     padding: 50px;
     margin: 0 auto;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -234,8 +243,26 @@ p {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
-    margin: 10% auto;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.middle-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -254,6 +281,10 @@ p {
     margin: 0 auto;
 }
 
+.cta-github {
+    margin: 10px;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -261,4 +292,12 @@ p {
     justify-content: center;
     text-align: center;
     padding: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
 }
