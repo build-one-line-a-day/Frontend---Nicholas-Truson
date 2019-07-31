@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.nav nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.nav nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about {
+    background-color: #afafaf;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin: 10% auto;
+    padding: 10px;
+}
+
+.simplicity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.simplicity img{
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.secure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.secure img{
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.ideas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.ideas img{
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.thankyou {
+    background-color: #afafaf;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-img {
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.the-team {
+    background-color: #afafaf;
+    padding: 50px;
+    margin: 0 auto;
+}
