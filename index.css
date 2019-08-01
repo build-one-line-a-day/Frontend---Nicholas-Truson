@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-
+/*
+HEADER & NAVIGATION STYLING
+*/
 h1 {
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
@@ -293,6 +295,9 @@ p {
     text-align: center;
     padding: 20px;
 }
+
+/* This is a test of the uncommenting tactic 
+*/
 
 .social {
     display: flex;
