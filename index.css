@@ -95,6 +95,7 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 /* --- HOME PAGE IMAGE --- */
 .main-img {
@@ -112,14 +113,15 @@ h3 {
     padding: 50px;
     margin: 0 auto;
 }
-/* --- FEATURES CONTAINER STYLING*/
+/* --- FEATURES CONTAINER STYLING --- */
 .features {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding: 10px;
+    margin: 0 auto;
 }
 @media(max-width: 500px){
     .features{
@@ -133,7 +135,9 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    text-align: center;
     padding: 10px;
+    max-width: 250px;
 }
 .simplicity img{
     max-width: 150px;
@@ -146,6 +150,7 @@ h3 {
     justify-content: center;
     align-content: center;
     padding: 10px;
+    max-width: 250px;
 }
 .secure img{
     max-width: 150px;
@@ -158,13 +163,14 @@ h3 {
     justify-content: center;
     align-content: center;
     padding: 10px;
+    max-width: 250px;
 }
 .ideas img{
     max-width: 150px;
     height: auto;
     margin: 0 auto;
 }
-/* --- BOTTOM THANK YOU CONTENT*/
+/* --- BOTTOM THANK YOU CONTENT --- */
 .thankyou {
     background-color: #afafaf;
     padding: 50px;
@@ -192,6 +198,10 @@ h3 {
     background-color: white;
     border: 1px solid black;
   }
+.btn a {
+    color: white;
+    text-decoration: none;
+}
 /* --- ABOUT PAGE MAIN IMAGE --- */
 .team-img {
     display: flex;
@@ -217,6 +227,11 @@ h3 {
     margin: 0 auto;
     padding: 10px;
 }
+/*@media(max-width: 500px){
+    .top-row{
+        display: flex;
+        flex-direction: column;
+    }*/
 .middle-row {
     display: flex;
     flex-direction: row;
@@ -225,6 +240,12 @@ h3 {
     margin: 0 auto;
     padding: 10px;
 }
+/*@media(max-width: 500px){
+    .middle-row{
+        display: flex;
+        flex-direction: column;
+    }
+}*/
 .bottom-row {
     display: flex;
     flex-direction: row;
@@ -232,6 +253,12 @@ h3 {
     justify-content: center;
     margin: 0 auto;
     padding: 10px;
+}
+/*@media(max-width: 500px){
+    .bottom-row{
+        display: flex;
+        flex-direction: column;
+    }
 }
 /* --- TEAM MEMBER PROFILE STYLINE --- */
 .teammember {
