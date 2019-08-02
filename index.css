@@ -126,7 +126,10 @@ h3 {
 @media(max-width: 500px){
     .features{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
+        align-content: center;
+        justify-content: center;
     }
 }
 /* --- FEATURES CONTENT STYLING --- */
@@ -201,6 +204,9 @@ h3 {
 .btn a {
     color: white;
     text-decoration: none;
+}
+.btn a:hover {
+    color: black;
 }
 /* --- ABOUT PAGE MAIN IMAGE --- */
 .team-img {
@@ -292,4 +298,11 @@ h3 {
     align-content: center;
     justify-content: center;
     margin: 10px;
+}
+.copyright {
+    margin: 10px;
+}
+.copyright a {
+    text-decoration: none;
+    color: black;
 }
